@@ -1,8 +1,12 @@
-score_1 = input("Enter a number: ")
-score_2 = input("Enter another number: ")
+score_1 = float(input("Enter a number: "))
+score_2 = float(input("Enter another number: "))
 
-def calc(): 
-    result = float(score_1) + float(score_2)    
-    print(f"Your addition is {result}")       
+def calc():     
+    print(f"Your addition is {score_1 + score_2}")       
+    print(f"Your subtraction is {score_1 - score_2}")
+    print(f"Your multiplication is {score_1 * score_2}")
+    print(f"Your exponential is {score_1 ** score_2}")
+    print(f"Your division is {score_1 / score_2}")
+    print(f"Your floor division is {score_1 // score_2}")
 
 calc()
